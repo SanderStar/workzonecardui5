@@ -7,7 +7,4 @@ Probably Image should be outside the app.
 
 Just a trial.
 
-TODO
-----
-How to run directly into BAS?!
-
+Preview direct from BAS with the .card folder and included files.
