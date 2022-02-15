@@ -6,6 +6,10 @@ sap.ui.define([
 	return Controller.extend("my.component.sample.cardContent.Main", {
 		onInit: function () {
 			this.getView().byId("img").setSrc(sap.ui.require.toUrl("my/component/sample/cardContent/Image.png"));
-		}
+		},
+
+        onPress: function() {
+            sap.m.MessageToast.show("Helloworld");
+        }
 	});
 });

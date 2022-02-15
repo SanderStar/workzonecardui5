@@ -4,5 +4,6 @@
 		  displayBlock="true"
 		  controllerName="my.component.sample.cardContent.Main">
 
+    <Button id="btn" text="Helloworld" press="onPress"></Button>
 	<Image id="img" width="100%"></Image>
 </mvc:View>
